@@ -121,3 +121,18 @@ header > h1 {
     background-color: #95a5a6 !important;
 }
 
+.green {
+    color: #44bd32;
+}
+
+@media (max-width: 600px){
+    .choice {
+        display: flex;
+        margin: 20px auto;
+    }
+
+    .result {
+        font-size: 30px;
+    }
+    
+}

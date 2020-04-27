@@ -34,6 +34,8 @@ function win(userChoice, computerChoice) {
     result_div.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You WIN!`
     document.getElementById(userChoice).classList.add('green-glow');
     setTimeout(() => document.getElementById(userChoice).classList.remove('green-glow'), 400)
+    result_div.classList.add('green');
+    setTimeout(() => result_div.classList.remove('green'), 400);
 }
 
 function lose(userChoice, computerChoice) {
