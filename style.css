@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #24272e;
+}
+
+header {
+    background: white;
+    padding: 20px;
+
+}
+
+header > h1 {
+    color: #24272e;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+
+.score-board {
+    border: 3px solid white;
+    max-width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'Asap', sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: red;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Asap', sans-serif;
+    width: 70px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+
+}
+
+.result > p {
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0;
+    
+   
+}
+
+.choice {
+    display: inline-block;
+    margin: 20px 50px;
+    border: solid white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: #3498db;
+}
+
+.choice > i {
+    font-size: 100px;
+    color: white;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.green-glow {
+    border: 3px solid #4cd137;
+    box-shadow: 0 0 10px #44bd32;
+    background-color: #4cd137 !important;
+}
+
+.red-glow {
+    border: 3px solid #e74c3c;
+    box-shadow: 0 0 10px #c0392b;
+    background-color: #e74c3c !important;
+}
+
+.grey-glow {
+    border: 3px solid #95a5a6;
+    box-shadow: 0 0 10px #7f8c8d;
+    background-color: #95a5a6 !important;
+}
+
